@@ -4,9 +4,9 @@
 !/public/test.html
 !/public/test.php
 /public/
-##/.git/
+/.git/
 /.settings/
 .buildpath
 .project
-/comm/cfg/self.cfg.php
+/comm/cfg/self.php
 /log/log.log

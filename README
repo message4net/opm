@@ -1,3 +1,19 @@
+   I.将	初始路径(BASE_DIR)	下的comm/init.cfg替换为当前系统版本，如 cp init.cfg.windows.dos init.cfg
+   I.php
+   	  a)使用方法:
+   		统一调用初始路径(BASE_DIR)下的
+   			public/index.php
+   	  b)调用初始配置顺序(php/comm/cfg/init.php会依次调用后面的配置):
+		对应编程语言(NAME_PHP)路径下的  
+			comm/cfg/init.php->comm/inc/init.php
+		初始路径(BASE_DIR)下的
+			comm/init.cfg
+		对应编程语言路径(NAME_PHP)下的  
+			comm/cfg/rel.php->comm/cfg/rel.php->comm/cfg/self.php->comm/inc/dbpdo.php
+  II.
+ 	 .gitignore按照实际情况具体配置
+
+
 https://www.yiibai.com/smarty/
 https://www.smarty.net/docs/zh_CN/
 https://blog.csdn.net/zou8944/article/details/80957666

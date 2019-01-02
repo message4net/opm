@@ -1,5 +1,5 @@
 <?php 
-require 'php'.DIRECTORY_SEPARATOR.'comm'.DIRECTORY_SEPARATOR.'cfg'.DIRECTORY_SEPARATOR.'init.cfg.php';
+require 'comm'.DIRECTORY_SEPARATOR.'cfg'.DIRECTORY_SEPARATOR.'init.php';
 
 
 //echo $_REQUEST['a'].'q<br/>';

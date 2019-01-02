@@ -24,6 +24,14 @@ class Init {
 //		}
 //	}
 
+	/**
+	 * 通用配置解析、加载
+	 * 
+	 */
+	public function parseLoadConfig($configPathFile){
+		
+	}
+
 	/*
 	 * 打印日志
 	 */

@@ -1,5 +1,7 @@
 <?php
 
+require '../inc/init.php';
+
 define('DS',DIRECTORY_SEPARATOR);
 //定义起始路径
 define('BASE_DIR',dirname(dirname(__DIR__)).DS);
